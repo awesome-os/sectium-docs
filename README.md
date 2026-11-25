@@ -28,3 +28,13 @@ Canonical documentation, Central Label-Indexed Markdown Registry, collapsed arch
 ## License
 
 BSD-3-Clause — see [`LICENSE`](./LICENSE).
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/sectium-docs@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/sectium-docs?from=repository://github.com/awesome-os/sectium-docs@main"
+```
